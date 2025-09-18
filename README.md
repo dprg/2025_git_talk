@@ -18,7 +18,6 @@ techniques in its development. Git enables good techniques. Here's how:
 - Cloud backup of your code saves you if you accidentally delete your
 code folder on your PC. It's a lot harder to delete a github repo than
 a directory.
-
 - Save intermediate "working states" of your code, and easily get back
 to them for testing
 
@@ -44,3 +43,6 @@ it doesn't work out. Safety net gives you confidence to try big changes.
 - Maintain a "Release" version that's always ready to run, while you develop
 on a branch. Helps you quickly isolate whether a problem that arises in development
 is due to the SW change or if HW broke.
+
+- Maintain version control of HW files (3D cad models, PCB designs etc), as well
+as software & firmware.
