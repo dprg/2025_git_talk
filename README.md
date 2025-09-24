@@ -8,12 +8,15 @@
 - git manipulates the code repository version history, and provides for
 syncing it with the cloud version
 
-Include image of github repo and git on PC
+### Concepts & Terminology
+
+![Image of local and remote repos](images/Repos1.drawio.png)
 
 ## Why use git + github?
 
 Robotics centrally includes software/firmware. You need to use proper
-techniques in its development. Git enables good techniques. Here's how:
+techniques in its development. Git enables good techniques, but there's
+some overhead in managing the local (and optional remote) repos. Here's how:
 
 - Cloud backup of your code saves you if you accidentally delete your
 code folder on your PC. 
@@ -91,4 +94,5 @@ The .gitconfig file in your home directory contains global settings.
     # cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
 ```
 
-## Concepts & Terminology
+## Demos
+- Create & Clone Repo
