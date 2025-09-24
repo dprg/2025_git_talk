@@ -12,6 +12,12 @@ syncing it with the cloud version
 
 ![Image of local and remote repos](images/Repos1.drawio.png)
 
+- Git tracks diffs between versions - it doesn't keep a complete (or partial)
+copy of the directory tree between versions (except for binary files).
+  - Keeps incremental commit sizes small.
+- Git can track binary files like schematics, 3D models, and other binary
+files.
+
 ## Why use git + github?
 
 Robotics centrally includes software/firmware. You need to use proper
@@ -95,4 +101,19 @@ The .gitconfig file in your home directory contains global settings.
 ```
 
 ## Demos
-- Create & Clone Repo
+Assume you have created an account
+
+- Create & Clone New Repo
+- Copy some local content into the new repo, & edit README.md
+- View local status (git status + gitk) - git status + vs-code + gitk + git difftool
+- Stage & commit and push it to github.
+
+## Advanced usage
+
+- git remote -v
+- .gitignore
+- cherry-pick
+- revert (with & without push to remote)
+- blame!
+- squash
+- bisect
