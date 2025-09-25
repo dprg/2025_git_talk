@@ -1,6 +1,7 @@
 # Git and Github - zero to hero in 60 minutes
 
 - Scope: how to do common operations for common scenarios
+- Slideset at https://docs.google.com/presentation/d/1MmLIxKv2Xzdbflz_UGx9gGhtgEvau4lHrMYWy0Sb6FI/edit?usp=sharing
 
 ## What is git + github
 
